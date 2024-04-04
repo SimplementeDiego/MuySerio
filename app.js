@@ -1,6 +1,7 @@
 i = 0;
 function Navidad(){
     if(i==0){
+        document.querySelector('h1').innerHTML = "¡Calculadora de Navidad!";
         document.querySelector('div').innerHTML = "Este año Navidad cae el 25 de diciembre.";
         i++;
     }else{
